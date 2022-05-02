@@ -1,0 +1,100 @@
+
+         .btn-grad1 {background-image: linear-gradient(to right, #ddd6f3 0%, #faaca8  51%, #ddd6f3  100%)}
+         .btn-grad1 {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+    
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: black;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+    
+          .btn-grad2 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
+          .btn-grad2 {
+             margin: 10px;
+             padding: 15px 45px;
+             text-align: center;
+             text-transform: uppercase;
+             transition: 0.5s;
+             background-size: 200% auto;
+             color: rgb(0, 0, 0);            
+             box-shadow: 0 0 20px #eee;
+             border-radius: 10px;
+             display: block;
+           }
+ 
+           .btn-grad2:hover {
+             background-position: right center; /* change the direction of the change here */
+             color: #fff;
+             text-decoration: none;
+           }
+               
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+#status1
+{
+font-size: 18px;
+}
+
+body{
+    background: rgb(0,42,255);
+    background: radial-gradient(circle, rgba(0,42,255,0.8730085784313726) 0%, rgba(214,0,255,0.6657256652661064) 52%, rgba(255,0,52,0.5704875700280112) 100%);
+}
+
+canvas{
+    box-shadow: 10px 10px 10px gainsboro;
+    border-radius: 10px;
+}
+
+#bedroom{
+    height: 70px;
+    width: 200px;
+    font-family: 'Rock 3D', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+#kitchen{
+    height: 70px;
+    width: 200px;
+    font-family: 'Rock 3D', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+#hall{
+    height: 70px;
+    width: 200px;
+    font-family: 'Rock 3D', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+#garden{
+    height: 70px;
+    width: 200px;
+    font-family: 'Rock 3D', cursive;
+    font-size: 20px;
+    text-align: center;
+}
